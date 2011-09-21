@@ -31,6 +31,7 @@
 				'OUTPUT_CACHE_TTL' => null
 			);
 
+			break;
 		default:
 			$config = array(
 				'DEBUG' => false,
