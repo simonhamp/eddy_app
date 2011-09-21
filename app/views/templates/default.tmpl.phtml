@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>MyWebApp</title>
+		
+		<!-- Stylesheets -->
+		<?php
+			if( is_array( $css_files ) ) :
+				foreach ( $css_files as $css_file ) :
+		?>
+					<link href="<?= SITE_ROOT ?>/css/<?= $css_file ?>" rel="stylesheet" />
+		<?php
+				endforeach;
+			endif;
+		?>
+		
+		<!-- Javascript -->
+		<?php
+			if( is_array( $js_files ) ) :
+				foreach ( $js_files as $js_file ) :
+		?>
+					<script src="<?= SITE_ROOT ?>/js/<?= $js_file ?>"></script>
+		<?php
+				endforeach;
+			endif;
+		?>
+	</head>
+	<body>
+		<?php EddyView::load(); ?>
+	</body>
+</html>
