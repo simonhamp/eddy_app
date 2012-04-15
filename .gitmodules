@@ -1,0 +1,3 @@
+[submodule "eddy"]
+	path = eddy
+	url = git://github.com/flipstorm/eddy.git
