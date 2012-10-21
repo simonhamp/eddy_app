@@ -7,7 +7,7 @@
 				// Basic config
 				'DEBUG' => true,
 				'ENVIRONMENT' => 'dev',
-				'SITE_ROOT' => '/myapp/public',
+				'SITE_ROOT' => '',
 
 				// Database
 				'MYSQL_DB'	=> '',
