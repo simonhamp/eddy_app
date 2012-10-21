@@ -1,5 +1,6 @@
 <?php
 	$host = strtolower( $_SERVER[ 'HTTP_HOST' ] );
+	date_default_timezone_set( 'UTC' );
 
 	switch ( $host ) {
 		case 'localhost':
